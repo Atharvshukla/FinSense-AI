@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechGear Pro Product Catalog</title>
+    <style>
+        body {
+            font-family: system-ui, -apple-system, sans-serif;
+            line-height: 1.5;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        .product {
+            border: 1px solid #e5e7eb;
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+        h1, h2 {
+            color: #111827;
+        }
+        p, ul {
+            color: #4b5563;
+        }
+        ul {
+            margin: 10px 0;
+            padding-left: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>TechGear Pro Product Catalog</h1>
+        
+        <!-- Product 1 -->
+        <div class="product">
+            <h2>Ultra Slim Laptop Pro X1</h2>
+            <p>Price: $1,299.99</p>
+            <p>SKU: LP-X1-2024</p>
+            <p>The Ultra Slim Laptop Pro X1 is our flagship portable computing solution, designed for professionals who demand performance without compromise.</p>
+            <ul>
+                <li>14" 4K OLED Display (3840 x 2160)</li>
+                <li>Intel® Core™ i7-13700H Processor</li>
+                <li>16GB DDR5 RAM</li>
+                <li>1TB NVMe SSD</li>
+                <li>Up to 18 hours battery life</li>
+                <li>Windows 11 Pro</li>
+            </ul>
+            <p><strong>Warranty:</strong> 2-year limited hardware warranty with 24/7 support</p>
+        </div>
+
+        <!-- Product 2 -->
+        <div class="product">
+            <h2>SmartWatch Elite Series</h2>
+            <p>Price: $299.99</p>
+            <p>SKU: SW-ELITE-2024</p>
+            <p>The SmartWatch Elite Series combines sophisticated health tracking with seamless connectivity.</p>
+            <ul>
+                <li>1.4" AMOLED Always-On Display</li>
+                <li>Advanced Heart Rate & ECG Monitoring</li>
+                <li>Blood Oxygen Tracking</li>
+                <li>50m Water Resistance</li>
+                <li>7-day Battery Life</li>
+                <li>GPS & GLONASS</li>
+            </ul>
+            <p><strong>Available Colors:</strong> Midnight Black, Silver Storm, Rose Gold</p>
+        </div>
+
+        <!-- Product 3 -->
+        <div class="product">
+            <h2>Professional Camera Kit Z3</h2>
+            <p>Price: $2,499.99</p>
+            <p>SKU: CAM-Z3-PRO</p>
+            <p>The Professional Camera Kit Z3 is built for serious photographers and videographers.</p>
+            <ul>
+                <li>45.7MP Full-Frame Sensor</li>
+                <li>8K Video Recording</li>
+                <li>5-Axis Image Stabilization</li>
+                <li>Dual Card Slots</li>
+                <li>Weather-Sealed Body</li>
+                <li>4K/120fps Slow Motion</li>
+            </ul>
+            <p><strong>Includes:</strong> Camera Body, 24-70mm f/2.8 Lens, Battery Grip, 2x Memory Cards</p>
+        </div>
+    </div>
+
+    <!-- Chatbot Integration -->
+    <div id="store-chatbot" data-store-id="38ca2cf6-ed57-43f8-be5b-57eb444ad6f7"></div>
+    <script src="http://localhost:3000/api/chatbot"></script>
+</body>
+</html>
