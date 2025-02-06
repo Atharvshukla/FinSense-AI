@@ -43,9 +43,9 @@ export default async function Dashboard() {
         <div className="max-w-4xl mx-auto space-y-8">
           <div className="flex justify-between items-center">
             <div className="space-y-4">
-              <h1 className="text-4xl font-bold">eCommerce Chatbot</h1>
+              <h1 className="text-4xl font-bold">FinSense ChatBot</h1>
               <p className="text-lg text-muted-foreground">
-                A powerful AI assistant for your online store, powered by RAG technology.
+                A powerful AI assistant for your personal finance, powered by RAG technology.
               </p>
             </div>
             <form action="/auth/signout" method="post">
