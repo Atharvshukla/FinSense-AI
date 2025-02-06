@@ -54,12 +54,12 @@ export function AuthForm() {
 
           if (!response.ok) {
             const error = await response.json();
-            throw new Error(error.message || 'Failed to create store');
+            throw new Error(error.message || 'Failed to create account');
           }
 
           toast({
             title: 'Account created',
-            description: 'Welcome to your new store!',
+            description: 'Welcome to FinSense!',
           });
         }
       } else {
@@ -72,7 +72,7 @@ export function AuthForm() {
 
         toast({
           title: 'Welcome back!',
-          description: 'Successfully signed in to your store.',
+          description: 'Successfully signed in to FinSense.',
         });
       }
 
@@ -93,7 +93,7 @@ export function AuthForm() {
       <div className="flex items-center gap-2 mb-6">
         <Store className="w-6 h-6" />
         <h1 className="text-2xl font-bold">
-          {isSignUp ? 'Create Store Account' : 'Sign In to Your Store'}
+          {isSignUp ? 'Create  Account' : 'Sign In to Your Account'}
         </h1>
       </div>
 
