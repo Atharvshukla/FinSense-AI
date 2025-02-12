@@ -69,6 +69,26 @@ export default async function Dashboard() {
             </div>
           </div>
 
+          {/* New Investment Advice Section */}
+          <div className="bg-gradient-to-r from-blue-50 to-indigo-50 p-6 rounded-lg border border-blue-200 shadow-sm">
+            <div className="flex justify-between items-center">
+              <div className="space-y-2">
+                <h2 className="text-2xl font-semibold text-blue-900">Investment Advice</h2>
+                <p className="text-blue-700">
+                  Get personalized investment recommendations and portfolio analysis from our AI-powered investment advisor.
+                </p>
+              </div>
+              <a
+                href="https://fin-sense-investment-advise.vercel.app/investment"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-lg transition-colors duration-200 inline-flex items-center"
+              >
+                Get Investment Advice
+              </a>
+            </div>
+          </div>
+
           <div className="space-y-4">
             <h2 className="text-2xl font-semibold">Integration Guide</h2>
             <div className="space-y-4">
