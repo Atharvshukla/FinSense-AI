@@ -110,6 +110,26 @@ export default async function Dashboard() {
                   </div>
                 </div>
           
+                {/* Taxation Section */}
+                <div className="bg-gradient-to-r from-yellow-50 to-orange-50 p-6 rounded-lg border border-yellow-200 shadow-sm">
+                  <div className="flex justify-between items-center">
+                    <div className="space-y-2">
+                      <h2 className="text-2xl font-semibold text-yellow-900">Taxation</h2>
+                      <p className="text-yellow-700">
+                        Manage your taxes efficiently with our AI-powered tax advisor.
+                      </p>
+                    </div>
+                    <a
+                      href="https://fin-sense-investment-advise.vercel.app/taxation"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="bg-yellow-600 hover:bg-yellow-700 text-white px-6 py-3 rounded-lg transition-colors duration-200 inline-flex items-center"
+                    >
+                      Manage Taxes
+                    </a>
+                  </div>
+                </div>
+          
                 {/* <div className="space-y-4">
                   <h2 className="text-2xl font-semibold">Integration Guide</h2>
                   <div className="space-y-4">
