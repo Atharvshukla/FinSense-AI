@@ -110,7 +110,7 @@ export default async function Dashboard() {
                   </div>
                 </div>
           
-                <div className="space-y-4">
+                {/* <div className="space-y-4">
                   <h2 className="text-2xl font-semibold">Integration Guide</h2>
                   <div className="space-y-4">
                     <p className="text-muted-foreground">
@@ -129,7 +129,7 @@ export default async function Dashboard() {
                       </p>
                     </div>
                   </div>
-                </div>
+                </div> */}
         </div>
       </div>
     </div>
