@@ -119,7 +119,7 @@ export function AuthForm() {
         {isSignUp && (
           <div>
             <Input
-              placeholder="Store Name"
+              placeholder="Assitant Name"
               value={storeName}
               onChange={(e) => setStoreName(e.target.value)}
               required

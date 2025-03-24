@@ -75,7 +75,7 @@ export function ChatInterface({ storeId, className = '' }: ChatInterfaceProps) {
         transition={{ duration: 0.5 }}
       >
         <MessageCircle className="w-6 h-6 text-white" />
-        <h2 className="font-semibold text-xl text-white">Store Assistant</h2>
+        <h2 className="font-semibold text-xl text-white">Fin Assistant</h2>
       </motion.div>
 
       <ScrollArea className="flex-1 p-4 bg-white" ref={scrollAreaRef}>
